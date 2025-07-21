@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task-assign-role.html 
+keywords: assign admin role, admin, admin google cloud netapp volumes 
+summary: Debe asignar la función de administrador a los usuarios de Google Cloud NetApp Volumes antes de que puedan descubrir volúmenes en BlueXP. 
+---
+= Asignar el rol de administrador de Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Debe asignar la función de administrador a los usuarios de Google Cloud NetApp Volumes antes de que puedan descubrir volúmenes en BlueXP.
+
+.Pasos
+. En la parte superior derecha de la consola de BlueXP , seleccione image:icon-settings-option.png["El icono de configuración en la parte superior derecha."]> *Gestión de identidades y acceso*.
+. Desde la página *Miembros*, busque un miembro en la tabla, seleccione image:icon-action.png["Un icono que tiene tres puntos uno al lado del otro"] y luego seleccione *Agregar un rol*.
+. Para agregar un rol, complete los pasos del cuadro de diálogo:
++
+** *Seleccione una organización, carpeta o proyecto*: elija el nivel de su jerarquía de recursos para el cual el miembro debe tener permisos y haga clic en *Aceptar*
++
+Al seleccionar una organización o carpeta se otorgan al miembro permisos para
+
+** *Seleccionar una categoría*: Elija una categoría de rol. link:reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso"^].
+** Seleccionar un *Rol*: Elija el rol GCNV y haga clic en *Aceptar*.
+** Haga clic en *Agregar nuevo rol*.
+
+
+
+
+link:reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso"^].

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Conozca las novedades en la compatibilidad de Google Cloud NetApp Volumes en BlueXP. 
+---
+= Lo nuevo
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Conozca las novedades en la compatibilidad de Google Cloud NetApp Volumes en BlueXP.
+
+
+
+== 21 de julio de 2025
+
+
+
+=== Compatibilidad con Google Cloud NetApp Volumes en BlueXP
+
+Ahora puedes administrar los Google Cloud NetApp Volumes directamente desde BlueXP:
+
+* Añade un entorno de trabajo.
+* Visualiza tus volúmenes
+* Elimina tu entorno de trabajo.
+
