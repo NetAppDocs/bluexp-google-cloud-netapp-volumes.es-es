@@ -44,8 +44,8 @@ Por ejemplo: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
 .. Añada estos roles:
 +
-*** _NetApp Cloud Volumes Admin_
-*** _Visor de redes de computación_
+*** _Administrador de volúmenes NetApp de Google Cloud_
+*** Visor de NetApp de Google Cloud
 
 
 .. Haga clic en *Guardar*.
@@ -60,6 +60,7 @@ Al hacer clic en *Crear* se genera y descarga en el sistema su nuevo par de clav
 
 Si quiere ver los pasos detallados, consulte la documentación de Google Cloud:
 
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Roles y permisos de Google Cloud NetApp Volumes"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["Crear y administrar cuentas de servicio"^]
 * link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["Otorgar, cambiar y revocar el acceso a los recursos"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["Crear y administrar claves de cuenta de servicio"^]
