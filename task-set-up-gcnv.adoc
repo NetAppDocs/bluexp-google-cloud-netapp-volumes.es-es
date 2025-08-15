@@ -22,30 +22,34 @@ BlueXP necesita los permisos adecuados a través de una cuenta de servicio Googl
 
 Complete las siguientes tareas para que BlueXP pueda acceder a su proyecto de Google Cloud:
 
-* Cree una nueva cuenta de servicio
-* Agregue el nuevo miembro de la cuenta de servicio al proyecto y. asignar roles específicos de ti (permisos)
-* Cree y descargue un par de claves para la cuenta de servicio Que se utiliza para autenticar en Google
+* Si aún no tiene una cuenta de servicio existente, cree una nueva.
+* Agregue el miembro de la cuenta de servicio a su proyecto y asígnele roles específicos (permisos).
+* Cree y descargue un par de claves para la cuenta de servicio que se utiliza para autenticarse en Google.
 
 
 .Pasos
 . En la consola de Google Cloud,  https://console.cloud.google.com/iam-admin/serviceaccounts["Vaya a la página de cuentas de servicio"^] .
 . Haga clic en *Seleccionar un proyecto*, elija su proyecto y haga clic en *Abrir*.
-. Haga clic en *Crear cuenta de servicio*.
-. Introduzca el nombre de la cuenta de servicio (nombre descriptivo para mostrar) y la descripción.
+. (Opcional) Para crear una cuenta de servicio, haga lo siguiente:
++
+.. Haga clic en *Crear cuenta de servicio*.
+.. Introduzca el nombre de la cuenta de servicio (nombre descriptivo para mostrar) y la descripción.
 +
 La consola de cloud genera un ID de cuenta de servicio en función de este nombre. Edite el ID si es necesario. No puede cambiar el ID más adelante.
 
-. Para establecer los controles de acceso ahora, haga clic en *Crear* y, a continuación, en *HECHO* en la parte inferior de la página y continúe con el siguiente paso.
+.. Para establecer los controles de acceso ahora, haga clic en *Crear* y, a continuación, en *HECHO* en la parte inferior de la página y continúe con el siguiente paso.
+
+
 . En la página _IAM_ haga clic en *Agregar* y rellene los campos de la página _Add Members_:
 +
 .. En el campo Nuevos miembros, introduzca el ID de cuenta de servicio completo.
 +
 Por ejemplo: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
-.. Añada estos roles:
+.. Añade uno de estos roles:
 +
-*** _Administrador de volúmenes NetApp de Google Cloud_
-*** Visor de NetApp de Google Cloud
+*** _Administrador de volúmenes NetApp de Google Cloud_ O
+*** _Visor de volúmenes NetApp de Google Cloud_
 
 
 .. Haga clic en *Guardar*.
